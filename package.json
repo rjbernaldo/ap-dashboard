@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --hot --history-api-fallback --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/rjbernaldo/ap-dashboard/issues"
   },
-  "homepage": "https://github.com/rjbernaldo/ap-dashboard#readme"
+  "homepage": "https://github.com/rjbernaldo/ap-dashboard#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hot-loader": "^1.3.1"
+  }
 }
