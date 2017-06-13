@@ -9,4 +9,4 @@ services:
       - "8080"
     volumes:
       - .:/home/docker/app
-    command: bash -c "echo 'TEST'"
+    command: bash -c "npm run dev"

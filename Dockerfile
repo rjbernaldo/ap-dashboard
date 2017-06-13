@@ -11,7 +11,7 @@ RUN mkdir -p $NPM_PATH
 
 WORKDIR $APP
 
-COPY package.json $APP
+COPY yarn.lock $APP
 RUN yarn install
 
 COPY . $APP
