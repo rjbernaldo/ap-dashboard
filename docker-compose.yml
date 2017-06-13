@@ -1,0 +1,12 @@
+version: '2'
+services:
+  ap-dashboard:
+    build: .
+    container_name: ap-dashboard
+    environment:
+      - PORT=8080
+    expose:
+      - "8080"
+    volumes:
+      - .:/home/docker/app
+    command: bash -c "echo 'TEST'"
