@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import Home from './Home';
+import Analytics from './Analytics';
 
-const App = ({ routes }) => (
+const App = () => (
   <div>
     <Header />
-    {routes()}
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/analytics" component={Analytics} />
+    </Switch>
     <Footer />
   </div>
 );

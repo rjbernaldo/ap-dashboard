@@ -4,7 +4,7 @@ import App from './components/App';
 
 const Root = ({ routes }) => (
   <BrowserRouter>
-    <App routes={routes} />
+    {routes()}
   </BrowserRouter>
 );
 
