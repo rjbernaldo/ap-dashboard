@@ -11,12 +11,14 @@ import Analytics from './Analytics';
 
 const App = () => (
   <GApp>
-    <GBox direction="column" pad="medium" size="full">
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/analytics" component={Analytics} />
-      </Switch>
+    <GBox direction="column" pad="none" full="vertical">
+      <GBox pad="medium">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/analytics" component={Analytics} />
+        </Switch>
+      </GBox>
       <Footer />
     </GBox>
   </GApp>

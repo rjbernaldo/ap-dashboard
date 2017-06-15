@@ -19,7 +19,7 @@ const Header = () => (
       PRELIVE
     </GBox>
     <GBox alignSelf="center" direction="row" flex={true} justify="end">
-      <GMenu responsive={true} inline={true} direction="row" dropAlign={{"right": "right"}}>
+      <GMenu responsive={true} inline={true} direction="row" size="large">
         <GAnchor label="Home" path="/" />
         <GAnchor label="Analytics" path="/analytics" />
       </GMenu>
