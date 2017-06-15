@@ -12,7 +12,7 @@ import Analytics from './Analytics';
 const App = () => (
   <GApp>
     <GBox direction="column" pad="none">
-      <GBox pad="medium">
+      <GBox pad="small">
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
