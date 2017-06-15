@@ -1,3 +1,5 @@
+import 'grommet/scss/vanilla/index.scss';
+
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
@@ -15,6 +17,7 @@ const renderApp = (appRoutes) => {
 };
 
 renderApp(routes);
+document.body.classList.remove('loading');
 
 if (module.hot) {
   module.hot.accept('./Root', () => {

@@ -21,6 +21,18 @@ module.exports = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      // potential improvement: https://github.com/grommet/grommet-standalone#grommet-standalone
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+          {
+            loader: 'sass-loader',
+            options: { includePaths: ['./node_modules', './node_modules/grommet/node_modules'] },
+          },
+        ],
+      },
     ],
   },
   plugins: [
