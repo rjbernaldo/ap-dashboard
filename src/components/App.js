@@ -11,7 +11,7 @@ import Analytics from './Analytics';
 
 const App = () => (
   <GApp>
-    <GBox direction="column" pad="none" full="vertical">
+    <GBox direction="column" pad="none">
       <GBox pad="medium">
         <Header />
         <Switch>

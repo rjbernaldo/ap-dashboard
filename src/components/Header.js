@@ -13,14 +13,15 @@ import logo from '../../assets/images/logo.png';
 const Header = () => (
   <GHeader size="large">
     <GTitle>
-      <GImage src={logo} style={{ width: '80px' }} />
+      <GAnchor path="/">
+        <GImage src={logo} style={{ width: '80px' }} />
+      </GAnchor>
     </GTitle>
     <GBox alignSelf="center">
       PRELIVE
     </GBox>
     <GBox alignSelf="center" direction="row" flex={true} justify="end">
       <GMenu responsive={true} inline={true} direction="row" size="large">
-        <GAnchor label="Home" path="/" />
         <GAnchor label="Analytics" path="/analytics" />
       </GMenu>
     </GBox>
