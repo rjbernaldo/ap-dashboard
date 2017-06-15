@@ -6,23 +6,25 @@ import GTitle from 'grommet/components/Title';
 import GBox from 'grommet/components/Box';
 import GAnchor from 'grommet/components/Anchor';
 import GImage from 'grommet/components/Image';
+import GMenu from 'grommet/components/Menu';
 
 import logo from '../../assets/images/logo.png';
 
 const Header = () => (
-  <GBox>
-    <GHeader>
-      <GTitle>
-        <GImage src={logo} style={{ width: '100px' }} />
-      </GTitle>
-      <GBox>
+  <GHeader size="large">
+    <GTitle>
+      <GImage src={logo} style={{ width: '80px' }} />
+    </GTitle>
+    <GBox alignSelf="center">
+      PRELIVE
+    </GBox>
+    <GBox alignSelf="center" direction="row" flex={true} justify="end">
+      <GMenu responsive={true} inline={true} direction="row" dropAlign={{"right": "right"}}>
         <GAnchor label="Home" path="/" />
-      </GBox>
-      <GBox>
         <GAnchor label="Analytics" path="/analytics" />
-      </GBox>
-    </GHeader>
-  </GBox>
+      </GMenu>
+    </GBox>
+  </GHeader>
 );
 
 export default Header;
