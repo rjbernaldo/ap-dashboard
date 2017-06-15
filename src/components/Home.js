@@ -23,18 +23,40 @@ const Home = () => (
         <GSplit flex="left">
           <GBox pad="small">
             <h3 style={{'marginBottom': '0px'}}>Admin</h3>
-            <GBox pad="small">
+            <GBox colorIndex="light-2" margin="small">
               <GAccordion openMulti={true}>
                 <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
                   <GBox pad="small">
-                    <GParagraph size="xsmall">
+                    <GParagraph>
                       Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     </GParagraph>
                   </GBox>
                 </GAccordionPanel>
               </GAccordion>
             </GBox>
-            <h3>Planning</h3>
+            <h3 style={{'marginBottom': '0px'}}>Planning</h3>
+            <GBox colorIndex="light-2" margin="small">
+              <GAccordion openMulti={true}>
+                <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
+                  <GBox pad="small">
+                    <GParagraph>
+                      Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </GParagraph>
+                  </GBox>
+                </GAccordionPanel>
+              </GAccordion>
+            </GBox>
+            <GBox colorIndex="light-2" margin="small">
+              <GAccordion openMulti={true}>
+                <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
+                  <GBox pad="small">
+                    <GParagraph>
+                      Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    </GParagraph>
+                  </GBox>
+                </GAccordionPanel>
+              </GAccordion>
+            </GBox>
             <h3>Design</h3>
             <h3>Development</h3>
             <h3>Testing</h3>
