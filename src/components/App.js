@@ -8,6 +8,10 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
 import Analytics from './Analytics';
+import Transactions from './Transactions';
+import Customers from './Customers';
+import Tools from './Tools';
+import Settings from './Settings';
 
 const App = () => (
   <GApp>
@@ -17,6 +21,10 @@ const App = () => (
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/analytics" component={Analytics} />
+          <Route path="/transactions" component={Transactions} />
+          <Route path="/customers" component={Customers} />
+          <Route path="/tools" component={Tools} />
+          <Route path="/settings" component={Settings} />
         </Switch>
       </GBox>
       <Footer />

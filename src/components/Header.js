@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import GHeader from 'grommet/components/Header';
 import GTitle from 'grommet/components/Title';
@@ -13,7 +12,7 @@ import UserIcon from 'grommet/components/icons/base/User';
 
 import logo from '../../assets/images/logo.png';
 
-const Header = (props) => (
+const Header = () => (
   <GHeader size="large">
     <GTitle>
       <GAnchor path="/">
@@ -28,7 +27,7 @@ const Header = (props) => (
         <GAnchor label="Analytics" path="/analytics" />
         <GAnchor label="Transactions" path="/transactions" />
         <GAnchor label="Customers" path="/customers" />
-        <GAnchor label="Tools" />
+        <GAnchor label="Tools" path="/tools" />
         <GAnchor label="Settings" path="/settings" />
         <GBox alignSelf="center"><SearchIcon /></GBox>
         <GBox alignSelf="center"><UserIcon /></GBox>
