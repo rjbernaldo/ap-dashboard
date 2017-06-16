@@ -15,7 +15,8 @@ const Home = () => (
   <div>
     <GHeading strong={true} tag="h2" style={{ 'paddingTop': '12px' }}>Welcome to Assembly</GHeading>
     <GParagraph>
-      Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue.
+      Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
+      Etiam at risus et justo dignissim congue.
       Donec congue lacinia dui, a porttitor lectus condimentum laoreet.
     </GParagraph>
     <GTabs justify="start">
@@ -28,7 +29,12 @@ const Home = () => (
                 <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
                   <GBox pad="small">
                     <GParagraph>
-                      Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Vivamus rutrum risus et tincidunt ullamcorper.
+                      Sed aliquet euismod sapien vitae convallis.
+                      Nulla egestas elit sapien, nec rhoncus sem cursus in.
+                      Nullam a dignissim tortor, vitae lobortis felis.
+                      Pellentesque habitant morbi tristique senectus
+                      et netus et malesuada fames ac turpis egestas.
                     </GParagraph>
                   </GBox>
                 </GAccordionPanel>
@@ -40,7 +46,12 @@ const Home = () => (
                 <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
                   <GBox pad="small">
                     <GParagraph>
-                      Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Vivamus rutrum risus et tincidunt ullamcorper.
+                      Sed aliquet euismod sapien vitae convallis.
+                      Nulla egestas elit sapien, nec rhoncus sem cursus in.
+                      Nullam a dignissim tortor, vitae lobortis felis.
+                      Pellentesque habitant morbi tristique senectus
+                      et netus et malesuada fames ac turpis egestas.
                     </GParagraph>
                   </GBox>
                 </GAccordionPanel>
@@ -51,7 +62,12 @@ const Home = () => (
                 <GAccordionPanel heading={<GCheckBox label="Integration task title" />} pad="none">
                   <GBox pad="small">
                     <GParagraph>
-                      Vivamus rutrum risus et tincidunt ullamcorper. Sed aliquet euismod sapien vitae convallis. Nulla egestas elit sapien, nec rhoncus sem cursus in. Nullam a dignissim tortor, vitae lobortis felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Vivamus rutrum risus et tincidunt ullamcorper.
+                      Sed aliquet euismod sapien vitae convallis.
+                      Nulla egestas elit sapien, nec rhoncus sem cursus in.
+                      Nullam a dignissim tortor, vitae lobortis felis.
+                      Pellentesque habitant morbi tristique senectus
+                      et netus et malesuada fames ac turpis egestas.
                     </GParagraph>
                   </GBox>
                 </GAccordionPanel>
@@ -62,14 +78,18 @@ const Home = () => (
             <h3>Testing</h3>
             <h3 style={{'marginBottom': '0px'}}>Migrate to live</h3>
             <GParagraph>
-              Once all integration tasks have been successfully completed the button below will be enabled in order to migrate this pre-live environment to a live production environment.
+              Once all integration tasks have been successfully completed the button below will be
+              enabled in order to migrate this pre-live environment to a
+              live production environment.
             </GParagraph>
             <GButton label="Launch" primary={true} />
           </GBox>
           <GBox pad="small" size="small">
             Getting started
             <p>
-              Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam dui dolor, bibendum vitae enim quis, lobortis consectetur erat. Aenean sed ultricies lacus, vel pellentesque felis.
+              Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam dui dolor,
+              bibendum vitae enim quis, lobortis consectetur erat.
+              Aenean sed ultricies lacus, vel pellentesque felis.
             </p>
           </GBox>
         </GSplit>

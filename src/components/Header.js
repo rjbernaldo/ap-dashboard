@@ -13,7 +13,7 @@ import UserIcon from 'grommet/components/icons/base/User';
 
 import logo from '../../assets/images/logo.png';
 
-const Header = () => (
+const Header = (props) => (
   <GHeader size="large">
     <GTitle>
       <GAnchor path="/">
